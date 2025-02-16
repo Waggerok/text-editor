@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import AppRouter from './components/AppRouter';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      fdslgkjdfklsjgh
-    </>
+    <BrowserRouter>
+      <Navbar/>
+      <AppRouter/>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

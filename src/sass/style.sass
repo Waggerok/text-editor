@@ -1,0 +1,29 @@
+body
+    padding: 0
+    margin: 0
+    
+.menu
+    height: 70px
+    width: 100%
+    background-color: #f1f1f1
+    border-radius: 10px
+    border-bottom: 1px solid #f1f1f1
+    transition: 0.5s all
+    &:hover
+        transition: 1s all
+        border-bottom: 1px solid gray
+        box-shadow: 1px 1px 10px #cacaca
+    &__navbar
+        display: flex
+        justify-content: center
+        align-items: center
+        &_links
+            display: flex
+            justify-content: space-between
+            list-style-type: none
+            padding: 20px 30px
+            gap: 100px
+            &-item
+                a
+                    color: black
+                
