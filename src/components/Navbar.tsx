@@ -9,7 +9,7 @@ const Navbar : React.FC = () => {
             <div className="menu__navbar">
                 <ul className="menu__navbar_links">
                     <li className="menu__navbar_links-item">
-                        <Link to='/home'>
+                        <Link to='/'>
                             <IoHomeOutline size={30}/>
                         </Link>
                     </li>
